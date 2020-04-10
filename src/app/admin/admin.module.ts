@@ -34,7 +34,7 @@ const routes: Routes = [
     CreatePageComponent,
     EditPageComponent,
     SearchPipe,
-    AlertComponent
+    AlertComponent,
   ],
   imports: [
     CommonModule,
