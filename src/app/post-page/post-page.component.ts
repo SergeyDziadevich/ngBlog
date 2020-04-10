@@ -20,6 +20,7 @@ export class PostPageComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+
     this.post$ = this.route.params
       .pipe(
         switchMap((params) => {
